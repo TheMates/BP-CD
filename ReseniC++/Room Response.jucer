@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="Room Response" projectType="guiapp" jucerVersion="5.3.1"
+              companyName="Matous Vrbik" headerPath="C:\Program Files\JUCE\usermodules\asio common;"
+              splashScreenColour="Light" companyEmail="xvrbik00@vutbr.cz">
+  <MAINGROUP id="pE8Luf" name="Room Response">
+    <GROUP id="{095C6D24-152A-E1DD-6F93-5AF3763F326E}" name="Source">
+      <FILE id="M9CKIi" name="MvMicrophoneIndicator.h" compile="0" resource="0"
+            file="Source/MvMicrophoneIndicator.h"/>
+      <FILE id="tGvHIT" name="MvSignalPlot.cpp" compile="1" resource="0"
+            file="Source/MvSignalPlot.cpp"/>
+      <FILE id="shnxNI" name="MvSignalPlot.h" compile="0" resource="0" file="Source/MvSignalPlot.h"/>
+      <FILE id="osJw5V" name="MvStructs.h" compile="0" resource="0" file="Source/MvStructs.h"/>
+      <FILE id="NeNEtF" name="MvButtons.h" compile="0" resource="0" file="Source/MvButtons.h"/>
+      <FILE id="SCngcs" name="MvMeasuringThread.h" compile="0" resource="0"
+            file="Source/MvMeasuringThread.h"/>
+      <FILE id="NtVfSV" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="RlxG3f" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="h3nIhf" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="ltzOqC" name="Compute.cpp" compile="1" resource="0" file="Source/Compute.cpp"/>
+      <FILE id="gIbDvR" name="Compute.h" compile="0" resource="0" file="Source/Compute.h"/>
+      <FILE id="xCo0dj" name="LinSweep.cpp" compile="1" resource="0" file="Source/LinSweep.cpp"/>
+      <FILE id="tPpK17" name="LinSweep.h" compile="0" resource="0" file="Source/LinSweep.h"/>
+      <FILE id="EtuOVz" name="LogSweep.cpp" compile="1" resource="0" file="Source/LogSweep.cpp"/>
+      <FILE id="ZXLqlw" name="LogSweep.h" compile="0" resource="0" file="Source/LogSweep.h"/>
+      <FILE id="SP1rEI" name="MLS.cpp" compile="1" resource="0" file="Source/MLS.cpp"/>
+      <FILE id="xRRwHe" name="MLS.h" compile="0" resource="0" file="Source/MLS.h"/>
+      <FILE id="Qp5OS0" name="Signal.cpp" compile="1" resource="0" file="Source/Signal.cpp"/>
+      <FILE id="BEpCaz" name="Signal.h" compile="0" resource="0" file="Source/Signal.h"/>
+      <FILE id="jSkpMM" name="Tone.cpp" compile="1" resource="0" file="Source/Tone.cpp"/>
+      <FILE id="YUvhig" name="Tone.h" compile="0" resource="0" file="Source/Tone.h"/>
+      <FILE id="kKIvmo" name="MvTabCalibration.cpp" compile="1" resource="0"
+            file="Source/MvTabCalibration.cpp"/>
+      <FILE id="TBYyln" name="MvTabDeviceConfig.cpp" compile="1" resource="0"
+            file="Source/MvTabDeviceConfig.cpp"/>
+      <FILE id="PlcQjS" name="MvTabMeasuring.cpp" compile="1" resource="0"
+            file="Source/MvTabMeasuring.cpp"/>
+      <FILE id="TYDGlr" name="MvTabbedComponent.cpp" compile="1" resource="0"
+            file="Source/MvTabbedComponent.cpp"/>
+      <FILE id="lzJ2EI" name="MvTabbedComponent.h" compile="0" resource="0"
+            file="Source/MvTabbedComponent.h"/>
+      <FILE id="oyPfQc" name="MvCanvas.cpp" compile="1" resource="0" file="Source/MvCanvas.cpp"/>
+      <FILE id="O9vDeE" name="MvCanvas.h" compile="0" resource="0" file="Source/MvCanvas.h"/>
+      <FILE id="NN3ULC" name="MvViewport.cpp" compile="1" resource="0" file="Source/MvViewport.cpp"/>
+      <FILE id="jnzj50" name="MvViewport.h" compile="0" resource="0" file="Source/MvViewport.h"/>
+      <FILE id="Ng5nyb" name="MLSTags.h" compile="0" resource="0" file="Source/MLSTags.h"/>
+      <FILE id="xXuKBf" name="MvTable.cpp" compile="1" resource="0" file="Source/MvTable.cpp"/>
+      <FILE id="DGsklF" name="MvTable.h" compile="0" resource="0" file="Source/MvTable.h"/>
+      <FILE id="dkOEbY" name="MvTabCalibration.h" compile="0" resource="0"
+            file="Source/MvTabCalibration.h"/>
+      <FILE id="t9Br2V" name="MvTabDeviceConfig.h" compile="0" resource="0"
+            file="Source/MvTabDeviceConfig.h"/>
+      <FILE id="q3sCSM" name="MvLookAndFeel.h" compile="0" resource="0" file="Source/MvLookAndFeel.h"/>
+      <FILE id="d8Ihxx" name="MvTabMeasuring.h" compile="0" resource="0"
+            file="Source/MvTabMeasuring.h"/>
+      <FILE id="qkU8qi" name="RRicon.ico" compile="0" resource="1" file="Source/RRicon.ico"/>
+    </GROUP>
+  </MAINGROUP>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_events" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_graphics" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_data_structures" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_gui_basics" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_gui_extra" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_opengl" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_audio_basics" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_audio_devices" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_audio_formats" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_audio_processors" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_audio_utils" path="JuceLibraryCode\modules\"/>
+        <MODULEPATH id="juce_dsp" path="JuceLibraryCode\modules\"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_ASIO="1"/>
+</JUCERPROJECT>

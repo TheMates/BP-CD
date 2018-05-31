@@ -1,0 +1,4 @@
+Ke správnému fungování aplikace je tøeba zkopírovat pøilozené soubory do adresáøe:
+C:\Windows\System32\
+
+Pokud již soubory existují, není tøeba je pøepisovat.
